@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  /* width: 80vw; */
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.input {
+  width: 60vw;
+  height: 30px;
+  padding: 15px;
+  margin: 20px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+
+  border: 1px solid #d7dae6;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+.name {
+  color: blue;
+  width: 300px;
+}
+.role {
+  width: 200px;
+  text-align: left;
+}
+
+.profile-cards-container {
+  width: 90%;
+}

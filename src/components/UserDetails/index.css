@@ -1,0 +1,40 @@
+/* Write your code here. */
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #d7dae6;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+.delete-img {
+  height: 25px;
+}
+.name {
+  color: blue;
+  width: 300px;
+}
+.role {
+  width: 200px;
+  text-align: left;
+}
+.delete-img {
+  width: 20px;
+  border: none;
+  margin-right: 8px;
+}
+.email {
+  margin-right: 10px;
+  text-align: center;
+  align-self: center;
+}
+.edit {
+  width: 20px;
+  margin-right: 5px;
+}
+.image-container {
+  display: flex;
+}
